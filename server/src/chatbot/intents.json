@@ -1,0 +1,29 @@
+{
+"intents":[
+    
+{"tag" : "greetings",
+"patterns": ["Hi", "Hey", "Whats up?","greetings", "Hello", "Good day", "How is it going"],
+"responses": ["Hello!" , "Hi!", "What can I do for you?" , "Hey!" ]
+},
+
+{"tag" : "goodbye",
+"patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+"responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+},
+
+{"tag" : "age",
+"patterns": ["how old are you?", "how old", "what is your age?", "how old is ammar?", "age?"],
+"responses": ["My owner Ammar is 20 years old!", "20 years!"]
+},
+
+{"tag": "name", 
+"patterns": ["what is your name?", "what should I call you?", "whats your name?", "name?"],
+"responses": ["You can call me Bot.", "I'm Bot!", "I'm Bot, your bot."]
+},
+
+{"tag": "shop",
+"patterns":["What are your products?", "I would like to buy something", "What do you recommend?", "What are you selling?"],
+"responses":[]
+}
+
+]}
