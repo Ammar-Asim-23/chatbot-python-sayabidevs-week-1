@@ -23,7 +23,12 @@
 
 {"tag": "shop",
 "patterns":["What are your products?", "I would like to buy something", "What do you recommend?", "What are you selling?"],
-"responses":[]
+"responses":["We sell a variety of food products including coffee and sandwiches", "We sell fries, sandwiches, coffee, tea and sodas"]
+},
+
+{"tag":"hours",
+"patterns":["What are your hours?", "When are you open?", "What are your hours of operation?", "hours?"],
+"responses":["24/7" , "We are always open", "We are open 24/7"]
 }
 
 ]}
