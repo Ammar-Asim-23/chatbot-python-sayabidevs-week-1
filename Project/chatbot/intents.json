@@ -30,6 +30,7 @@
 "patterns":["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Do you take debit cards?", "What forms of payment do you accept?"],
 "responses":["We accept VISA, Mastercard and AMEX", "We accept cash, VISA, Mastercard and AMEX", "We accept cash, VISA, Mastercard and AMEX"]
 },
+
 {"tag":"delivery",
 "patterns":["Do you deliver?", "Do you offer delivery?", "Can I get delivery?", "Do you do takeout?", "Can I get takeout?"],
 "responses":["We offer delivery through Uber Eats", "We offer delivery through Uber Eats", "We offer delivery through Uber Eats"]

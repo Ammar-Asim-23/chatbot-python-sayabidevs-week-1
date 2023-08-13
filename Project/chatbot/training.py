@@ -12,7 +12,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('server/src/chatbot/intents.json').read())
+intents = json.loads(open('Project/chatbot/intents.json').read())
 
 words = []
 classes = []
