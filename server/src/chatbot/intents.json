@@ -11,11 +11,6 @@
 "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
 },
 
-{"tag" : "age",
-"patterns": ["how old are you?", "how old", "what is your age?", "how old is ammar?", "age?"],
-"responses": ["My owner Ammar is 20 years old!", "20 years!"]
-},
-
 {"tag": "name", 
 "patterns": ["what is your name?", "what should I call you?", "whats your name?", "name?"],
 "responses": ["You can call me Bot.", "I'm Bot!", "I'm Bot, your bot."]
@@ -24,6 +19,45 @@
 {"tag": "shop",
 "patterns":["What are your products?", "I would like to buy something", "What do you recommend?", "What are you selling?"],
 "responses":["We sell a variety of food products including coffee and sandwiches", "We sell fries, sandwiches, coffee, tea and sodas"]
+},
+
+{"tag": "recommendations",
+"patterns":["What do you recommend?", "What is good?", "What do you suggest?", "What's your favorite food?", "What are your specialities?"],
+"responses":["Our coffee is the best in town!", "Our fries are the best in town!", "Our sandwiches are the best in town!"]
+},
+
+{"tag": "payments",
+"patterns":["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Do you take debit cards?", "What forms of payment do you accept?"],
+"responses":["We accept VISA, Mastercard and AMEX", "We accept cash, VISA, Mastercard and AMEX", "We accept cash, VISA, Mastercard and AMEX"]
+},
+{"tag":"delivery",
+"patterns":["Do you deliver?", "Do you offer delivery?", "Can I get delivery?", "Do you do takeout?", "Can I get takeout?"],
+"responses":["We offer delivery through Uber Eats", "We offer delivery through Uber Eats", "We offer delivery through Uber Eats"]
+},
+
+{"tag":"wifi",
+"patterns":["Do you have wifi?", "Is there wifi?", "Do you have free wifi?", "Is there free wifi?", "Is there wifi here?"],
+"responses":["Yes, we have free wifi", "Yes, we have free wifi", "Yes, we have free wifi"]
+},
+
+{"tag":"parking",
+"patterns":["Is there parking?", "Do you have parking?", "Is there parking here?", "Do you have parking here?"],
+"responses":["Yes, we have free parking", "Yes, we have free parking", "Yes, we have free parking"]
+},
+
+{"tag":"location",
+"patterns":["Where are you located?", "Where are you?", "Where is your location?", "Where is your store?"],
+"responses":["We are located at 123 Main Street", "We are located at 123 Main Street", "We are located at 123 Main Street"]
+},
+
+{"tag":"phone",
+"patterns":["What is your phone number?", "What is your number?", "What is your phone?", "What is your phone number?"],
+"responses":["Our phone number is 123-456-7890", "Our phone number is 123-456-7890", "Our phone number is 123-456-7890"]
+},
+
+{"tag":"website",
+"patterns":["What is your website?", "What is your site?", "What is your website address?", "What is your website?"],
+"responses":["Our website is www.example.com", "Our website is www.example.com", "Our website is www.example.com"]
 },
 
 {"tag":"hours",
