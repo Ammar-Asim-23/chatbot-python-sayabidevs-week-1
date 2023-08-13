@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e4f69a2f;
     margin: 0;
     padding: 0;
 }
@@ -12,8 +12,8 @@ body {
 }
 
 .chatbox {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #f9a2a256;
+    border: 1px solid #0e0101;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -22,20 +22,21 @@ body {
 .user-input {
     width: 70%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #e9f9a988;
     border-radius: 3px;
 }
 
 .send-button {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #617103;
     border: none;
     border-radius: 3px;
-    color: #fff;
+    color: #f8ffae;
     cursor: pointer;
 }
 
 .chatbot-response {
     margin-top: 20px;
     font-weight: bold;
+    color: #617103;
 }
